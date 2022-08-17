@@ -8,7 +8,7 @@ import resume from "../../assets/docs/kyle_davis_resume.pdf";
 
 function Resume() {
   return (
-    <Container className="my-5" >
+    <Container>
       <Row>
         <Col><h1 id="about">Resume and Skills</h1></Col>
       </Row>

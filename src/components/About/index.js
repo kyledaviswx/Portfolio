@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function About() {
 
   return (
-    <Container className="my-5" >
+    <Container>
       <Row>
         <Col><h1 id="about">About Kyle</h1></Col>
       </Row>
