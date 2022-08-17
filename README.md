@@ -4,7 +4,7 @@ This repo manages the React application code for my personal development portfol
 
 ## Site Sample
 
-![alt text](https://github.com/kyledaviswx/Portfolio/tree/main/src/assets/images/site_screenshot.png?raw=true)
+![alt text](https://raw.githubusercontent.com/kyledaviswx/Portfolio/main/src/assets/images/site_screenshot.png)
 
 ## Live Site
 
