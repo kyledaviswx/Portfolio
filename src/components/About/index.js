@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImage from "../../assets/me.jpg";
+import profileImage from "../../assets/images/me.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -21,8 +21,6 @@ function About() {
               Next, I spent 3 wonderful years at the Oklahoma Climatological Survey/Oklahoma Mesonet. I built a wide array of sites and tools used in meteorology, emergency management, and fire management.
               I now work for the University of Oklahoma Libraries web team. We create and maintain the OU libraries site as well as numerous websites and tools used by the university libraries.
               I also beginning my time as an instructor of the online Full Stack Flex bootcamp at the University of Minnesota.
-              {/* Video editing with: Adobe Premiere Pro, Final Cut Pro, Avid media composer.
-              Programing proficiency in: Drupal (7,8,9, and 10), Pantheon platform, HTML, Twig, JS, PHP, Objective C, XML, KML, ArcGIS, CSS, OpenLayers, Web Sockets, composer, npm, git */}
             </p>
           </div>
         </Col>

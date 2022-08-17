@@ -310,6 +310,12 @@ nav ul li {
   padding: 10px 12px 0 0;
 }
 
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .App-footer a {
   color: white !important;
 }
@@ -325,4 +331,58 @@ nav ul li {
 
 .bio_text {
   text-align: left;
+}
+
+#contact-form {
+  text-align: left;
+}
+
+.email_div {
+  margin-top: 10px;
+}
+
+.email_div input,
+.name_div input {
+  width: 235px;
+}
+
+.message_ta {
+  width: 290px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.message_div {
+  margin-top: 20px;
+}
+
+.phone_email_div {
+  margin-bottom: 20px;
+}
+
+.contact_phone {
+  margin-left: 20px;
+}
+
+.contact_form_title {
+  text-align: left;
+}
+
+.resume_btn {
+  background: var(--primary) !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-bottom: 30px !important;
+  padding: 10px 15px !important;
+  margin-top: 20px !important;
+}
+
+.portfolio_card {
+  width: 100%;
+  margin-bottom: 20px;
+  min-width: 196px !important;
 }

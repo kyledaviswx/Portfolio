@@ -18,6 +18,10 @@
   color: white;
 }
 
+.App-header h2 {
+  margin: 10px;
+}
+
 .App-footer ul li {
   list-style: none;
 }

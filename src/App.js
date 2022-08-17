@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
-// import Project from './components/Project';
-// import ContactForm from './components/ContactForm';
+import Project from './components/Project';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fontsource/roboto/400.css';
@@ -18,19 +19,6 @@ function App() {
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  let renderComp;
-  // switch (currentCategory.name) {
-  //   case 'Portfolio':
-  //     renderComp = <Project></Project>
-  //   case 'Resume':
-  //     renderComp = <Resume></Resume>
-  //   case 'Contact':
-  //     renderComp = <ContactForm></ContactForm>
-  //   default:
-  //     renderComp = <About></About>
-  // }
-  renderComp = <About></About>;
-
   return (
     <div className="App">
       <Header
@@ -39,7 +27,18 @@ function App() {
         currentCategory={currentCategory}
       ></Header>
       <main>
-        {renderComp}
+        {(() => {
+          switch (currentCategory.name) {
+            case 'Portfolio':
+              return <Project></Project>
+            case 'Resume':
+              return <Resume></Resume>
+            case 'Contact':
+              return <Contact></Contact>
+            default:
+              return <About></About>
+          }
+        })()}
       </main>
       <Footer></Footer>
     </div>
