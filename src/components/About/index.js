@@ -12,7 +12,7 @@ function About() {
         <Col><h1 id="about">About Kyle</h1></Col>
       </Row>
       <Row>
-        <Col xs={12} sm={12} md={6}><img src={profileImage} className="profile_pic my-2" style={{ width: "100%" }} alt="cover" /></Col>
+        <Col xs={12} sm={12} md={6}><img src={profileImage} className="profile_pic my-2" style={{ width: "70%" }} alt="cover" /></Col>
         <Col xs={12} sm={12} md={6}>
           <div className="my-2">
             <p className='bio_text'>
