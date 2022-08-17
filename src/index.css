@@ -322,3 +322,7 @@ nav ul li {
 .App-footer ul {
   margin-top: 10px;
 }
+
+.bio_text {
+  text-align: left;
+}

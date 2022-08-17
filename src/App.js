@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-// import About from './components/About';
+import About from './components/About';
 // import Project from './components/Project';
-// import ContactForm from './components/Contact';
+// import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,7 +17,19 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
+
+  let renderComp;
+  // switch (currentCategory.name) {
+  //   case 'Portfolio':
+  //     renderComp = <Project></Project>
+  //   case 'Resume':
+  //     renderComp = <Resume></Resume>
+  //   case 'Contact':
+  //     renderComp = <ContactForm></ContactForm>
+  //   default:
+  //     renderComp = <About></About>
+  // }
+  renderComp = <About></About>;
 
   return (
     <div className="App">
@@ -25,11 +37,9 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
       ></Header>
       <main>
-        MAIN
+        {renderComp}
       </main>
       <Footer></Footer>
     </div>
