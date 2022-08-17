@@ -8,4 +8,4 @@ This repo manages the React application code for my personal development portfol
 
 ## Live Site
 
-<a src="google.com">View Live Site</a>
+[View Live Site](https://google.com)
