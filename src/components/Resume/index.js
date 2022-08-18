@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import resume from "../../assets/docs/kyle_davis_resume.pdf";
 
+// importing bootstrap components to use for layout
 function Resume() {
   return (
     <Container>

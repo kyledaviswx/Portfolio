@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
+// importing icons from mui icons material for improved style over just text links
 function Footer() {
   return (
     <footer className="App-footer flex-row px-1">

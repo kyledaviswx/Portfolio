@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from '../Navigation';
 
+// props are passed from App.js for category state. This is then passed through to the Nav component to use to manage states. 
 function Header(props) {
   return (
     <header data-testid="header" className="App-header px-1">
