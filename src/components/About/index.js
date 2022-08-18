@@ -20,7 +20,7 @@ function About() {
               I then changed my career path and joined Epic Tech LLC and created Redibids.com. It is an auction style site with casino like gaming mixed in.
               Next, I spent 3 wonderful years at the Oklahoma Climatological Survey/Oklahoma Mesonet. I built a wide array of sites and tools used in meteorology, emergency management, and fire management.
               I now work for the University of Oklahoma Libraries web team. We create and maintain the OU libraries site as well as numerous websites and tools used by the university libraries.
-              I also beginning my time as an instructor of the online Full Stack Flex bootcamp at the University of Minnesota.
+              Also in 2022, I am excited to begin my time as an instructor for the online Full Stack Flex bootcamp at the University of Minnesota!
             </p>
           </div>
         </Col>
