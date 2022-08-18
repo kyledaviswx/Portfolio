@@ -8,13 +8,13 @@ function Footer() {
     <footer className="App-footer flex-row px-1">
       <ul>
         <li>
-          <a href="https://github.com/kyledaviswx" target="_blank" title="Kyle's GitHub"><GitHubIcon /></a>
+          <a href="https://github.com/kyledaviswx" rel="noreferrer" target="_blank" title="Kyle's GitHub"><GitHubIcon /></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/kyleldavis/" target="_blank" title="Kyle's LinkedIn"><LinkedInIcon /></a>
+          <a href="https://www.linkedin.com/in/kyleldavis/" rel="noreferrer" target="_blank" title="Kyle's LinkedIn"><LinkedInIcon /></a>
         </li>
         <li>
-          <a href="https://twitter.com/wxKyleD" target="_blank" title="Kyle's Twitter"><TwitterIcon /></a>
+          <a href="https://twitter.com/wxKyleD" rel="noreferrer" target="_blank" title="Kyle's Twitter"><TwitterIcon /></a>
         </li>
       </ul>
     </footer>
