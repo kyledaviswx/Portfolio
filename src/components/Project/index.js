@@ -57,8 +57,8 @@ function Project() {
               <Card.Img variant="top" src={require(`../../assets/images/websites/${site.image_name}.png`)} alt="Card image cap" />
               <Card.Body>
                 <Card.Title>{site.name}</Card.Title>
-                <Card.Link href={site.url}>Website</Card.Link>
-                <Card.Link href={site.github_url}>GitHub</Card.Link>
+                <Card.Link target="_blank" href={site.url}>Website</Card.Link>
+                <Card.Link target="_blank" href={site.github_url}>GitHub</Card.Link>
               </Card.Body>
             </Card>
           </Col>
