@@ -396,3 +396,7 @@ nav ul li {
   text-decoration: none !important;
   color: black !important;
 }
+
+.site_link {
+  white-space: nowrap;
+}

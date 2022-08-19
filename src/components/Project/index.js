@@ -18,7 +18,7 @@ function Project(props) {
         <Card.Img variant="top" src={require(`../../assets/images/websites/${site.image_name}.png`)} alt="Card image cap" />
         <Card.Body>
           <Card.Title>{site.name}</Card.Title>
-          <Card.Link rel="noreferrer" target="_blank" href={site.url}>Website</Card.Link>
+          <Card.Link className='site_link' rel="noreferrer" target="_blank" href={site.url}>Website</Card.Link>
           {github_link}
         </Card.Body>
       </Card>
