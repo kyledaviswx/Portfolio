@@ -6,7 +6,7 @@ This repo manages the React application code for my personal development portfol
 
 [View Live Site](https://google.com)
 
-## Site Walkthrough
+## Site Sample
 
 ![Download site walkthrough video](https://raw.githubusercontent.com/kyledaviswx/Portfolio/main/src/assets/images/site_screenshot.png)
 
