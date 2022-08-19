@@ -2,9 +2,9 @@
 
 This repo manages the React application code for my personal development portfolio. 
 
-## Site Sample
+## Site Walkthrough
 
-![alt text](https://raw.githubusercontent.com/kyledaviswx/Portfolio/main/src/assets/images/site_screenshot.png)
+![alt text](https://raw.githubusercontent.com/kyledaviswx/Portfolio/main/src/assets/site_walkthrough.mov)
 
 ## Live Site
 

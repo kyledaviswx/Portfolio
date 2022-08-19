@@ -17,31 +17,31 @@ function Portfolio() {
       name: 'Stellar Web Tach, LLC',
       image_name: 'stellar',
       url: 'https://stellarwebtech.com/',
-      github_url: 'https://github.com/kyledaviswx/react_photo_app'
+      github_url: 'private'
     },
     {
-      name: 'Oh Snap Photography2',
-      image_name: 'oh_snap',
-      url: 'https://kyledaviswx.github.io/react_photo_app/',
-      github_url: 'https://github.com/kyledaviswx/react_photo_app'
+      name: 'Wyatt CC, LLC',
+      image_name: 'wyatt',
+      url: 'https://wyattcc.com',
+      github_url: 'private'
     },
     {
-      name: 'Oh Snap Photography3',
-      image_name: 'oh_snap',
-      url: 'https://kyledaviswx.github.io/react_photo_app/',
-      github_url: 'https://github.com/kyledaviswx/react_photo_app'
+      name: 'OU Libraries',
+      image_name: 'ou',
+      url: 'https://libraries.ou.edu/',
+      github_url: 'private'
     },
     {
-      name: 'Oh Snap Photography4',
-      image_name: 'oh_snap',
-      url: 'https://kyledaviswx.github.io/react_photo_app/',
-      github_url: 'https://github.com/kyledaviswx/react_photo_app'
+      name: 'ARS Micronetwork',
+      image_name: 'ars',
+      url: 'https://ars.mesonet.org/',
+      github_url: 'private'
     },
     {
-      name: 'Oh Snap Photography5',
-      image_name: 'oh_snap',
-      url: 'https://kyledaviswx.github.io/react_photo_app/',
-      github_url: 'https://github.com/kyledaviswx/react_photo_app'
+      name: 'Mesonet OKFIRE',
+      image_name: 'okfire',
+      url: 'https://www.mesonet.org/index.php/okfire/home',
+      github_url: 'private'
     },
   ]);
 

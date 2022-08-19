@@ -385,3 +385,14 @@ nav ul li {
   margin-bottom: 20px;
   min-width: 196px !important;
 }
+
+.private_link {
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+
+.private_link:hover {
+  text-decoration: none !important;
+  color: black !important;
+}

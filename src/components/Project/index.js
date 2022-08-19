@@ -10,6 +10,8 @@ function Project(props) {
     site
   } = props;
 
+  let github_link = site.github_url === 'private' ? <Card.Link className='private_link'>Private GitHub</Card.Link> : <Card.Link rel='noreferrer' target='_blank' href={site.github_url}>GitHub</Card.Link>;
+
   return (
     <Col data-testid={index} xs={12} sm={12} md={4} lg={4} xl={4}>
       <Card key={index} className='portfolio_card mx-auto'>
@@ -17,7 +19,7 @@ function Project(props) {
         <Card.Body>
           <Card.Title>{site.name}</Card.Title>
           <Card.Link rel="noreferrer" target="_blank" href={site.url}>Website</Card.Link>
-          <Card.Link rel="noreferrer" target="_blank" href={site.github_url}>GitHub</Card.Link>
+          {github_link}
         </Card.Body>
       </Card>
     </Col>
