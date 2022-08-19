@@ -402,6 +402,7 @@ nav ul li {
 }
 
 .portfolio_card div.card-body a {
+  display: block;
   margin-left: auto !important;
   margin-right: auto !important;
 }
