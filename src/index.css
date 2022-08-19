@@ -400,3 +400,8 @@ nav ul li {
 .site_link {
   white-space: nowrap;
 }
+
+.portfolio_card div.card-body a {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
