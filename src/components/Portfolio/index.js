@@ -8,12 +8,6 @@ import Col from 'react-bootstrap/Col';
 function Portfolio() {
   const [websites] = useState([
     {
-      name: 'Oh Snap Photography',
-      image_name: 'oh_snap',
-      url: 'https://kyledaviswx.github.io/react_photo_app/',
-      github_url: 'https://github.com/kyledaviswx/react_photo_app'
-    },
-    {
       name: 'Stellar Web Tach, LLC',
       image_name: 'stellar',
       url: 'https://stellarwebtech.com/',
