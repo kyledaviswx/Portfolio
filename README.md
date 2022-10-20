@@ -4,12 +4,8 @@ This repo manages the React application code for my personal development portfol
 
 ## Live Site
 
-[View Live Site](https://google.com)
+[View Live Site](https://kyledaviswx.github.io/Portfolio/)
 
 ## Site Sample
 
 ![Download site walkthrough video](https://raw.githubusercontent.com/kyledaviswx/Portfolio/main/src/assets/images/site_screenshot.png)
-
-## Site Walkthrough
-
-![Download Video Walkthrough](https://raw.githubusercontent.com/kyledaviswx/Portfolio/main/src/assets/site_walkthrough.mov)
