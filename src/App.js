@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Resume from './components/Resume';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fontsource/roboto/400.css';
+import React, { useState } from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Resume from "./components/Resume";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fontsource/roboto/400.css";
 
 function App() {
   // Set up categories as "pages" for the site
   const [categories] = useState([
-    { name: 'About me' },
-    { name: 'Portfolio' },
-    { name: 'Resume' },
-    { name: 'Contact' }
+    { name: "About me" },
+    { name: "Portfolio" },
+    { name: "Resume" },
+    { name: "Contact" },
   ]);
 
   // Set up the state for the currently selected category
@@ -34,14 +34,14 @@ function App() {
         {/* conditionally show the current category based on which one is selected */}
         {(() => {
           switch (currentCategory.name) {
-            case 'Portfolio':
-              return <Portfolio></Portfolio>
-            case 'Resume':
-              return <Resume></Resume>
-            case 'Contact':
-              return <Contact></Contact>
+            case "Portfolio":
+              return <Portfolio></Portfolio>;
+            case "Resume":
+              return <Resume></Resume>;
+            case "Contact":
+              return <Contact></Contact>;
             default:
-              return <About></About>
+              return <About></About>;
           }
         })()}
       </main>
